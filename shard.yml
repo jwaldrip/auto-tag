@@ -1,0 +1,16 @@
+name: auto-tag
+version: 0.1.0
+
+authors:
+  - jwaldrip <jason@waldrip.net>
+
+description: |
+  Automatically tag a github repo by date.
+
+targets:
+  auto-tag:
+    main: src/auto-tag.cr
+
+crystal: 0.22.0
+
+license: MIT
