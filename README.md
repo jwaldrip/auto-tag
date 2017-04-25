@@ -1,22 +1,25 @@
 # auto-tag
 
-TODO: Write a description here
+Automatically create a release tag based on the date.
 
 ## Installation
 
-TODO: Write installation instructions here
+```sh
+git clone git@github.com:jwaldrip:auto-tag.git
+cd auto-tag
+shards build --release -o /usr/local/bin/auto-tag
+```
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+```sh
+# Within a git repo
+GITHUB_TOKEN=abc123 auto-tag
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/auto-tag/fork )
+1. Fork it ( https://github.com/jwaldrip/auto-tag/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -24,4 +27,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) jwaldrip - creator, maintainer
+- [[jwaldrip]](https://github.com/[jwaldrip]) Jason Waldrip - creator, maintainer
